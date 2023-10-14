@@ -1,0 +1,155 @@
+@media ( max-width:412px){
+    
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+    .bodycard{
+        width: 200px;
+        height: 490px;
+        border: 1px solid #000000;
+        padding: 10px;
+        padding-left: 25px;
+        background: linear-gradient(to bottom, #d85c70,  #ff9900);
+        border-radius: 10px;
+    
+    }
+
+    .searchdiv{
+        display: flex;
+        flex-direction: row;
+        width: 180px;
+        margin-top: 10px;
+    }
+    
+
+    input{
+        border-radius: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+        width: 140px;
+
+    }
+    #cloudsvg{
+        position: relative;
+        margin-left: 50px;
+        margin-top: 40px;
+
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+
+    }
+    
+    #humidityicon{
+        margin-left: 80px;
+        
+    }
+    .citydiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px; 
+        
+        
+    }
+    #temp{
+        margin-left:5px ;
+        font-size: 40px;
+        margin-bottom: 0px;
+        color:white;
+    }
+
+    #humidityicontext, #windicontext{
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        color: white;
+
+    }
+
+
+}
+@media (min-width:413px){
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    .bodycard{
+        width: 340px;
+        height: 490px;
+        border: 1px solid #000000;
+        padding: 10px;
+        padding-left: 25px;
+        background: linear-gradient(to bottom, #d85c70,  #ff9900);
+        border-radius: 10px;
+    
+    }
+
+    .searchdiv{
+        display: flex;
+        flex-direction: row;
+        width: 220px;
+        margin-top: 10px;
+    }
+    
+
+    input{
+        border-radius: 10px;
+        margin-right: 10px;
+        font-size: larger;
+
+    }
+    #cloudsvg{
+        position: relative;
+        margin-left: 120px;
+        margin-top: 40px;
+
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+
+    }
+    
+    #humidityicon{
+        margin-left: 160px;
+        
+    }
+    .citydiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px; 
+        
+        
+    }
+    #temp{
+        margin-left:70px ;
+        font-size: 40px;
+        margin-bottom: 0px;
+        color:white;
+    }
+
+    #humidityicontext, #windicontext{
+        display: flex;
+        flex-direction: row;
+        font-size: large;
+        color: white;
+
+    }
+
+    
+
+
+
+
+
+}
