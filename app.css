@@ -1,7 +1,7 @@
 
 .card{
     width: 90%;
-    max-width: 420px;
+    max-width: 350px;
     border: 1px solid #000000;
     margin-top: 0;
     margin: auto ;
@@ -40,6 +40,19 @@ header {
     display: flex;
     justify-content: center;
     color: purple;
+}
+
+@media (max-width:412px) {
+    .card {
+
+        max-width: 250px;
+       
+    }
+    .search input {
+        width:200px ;
+        flex: 0;
+    }
+
 }
 
 
