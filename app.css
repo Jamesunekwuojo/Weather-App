@@ -1,4 +1,24 @@
-@media ( max-width:412px){
+
+.card{
+    width: 90%;
+    max-width: 490px;
+    border: 1px solid #000000;
+    margin: 100px auto 0;
+    padding: 40px;
+    background: linear-gradient(to bottom, #d85c70,  #ff9900);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* @media ( max-width:412px){
     
     .body {
         display: flex;
@@ -7,16 +27,7 @@
         margin-top: 10px;
         
     }
-    .bodycard{
-        width: 200px;
-        height: 490px;
-        border: 1px solid #000000;
-        padding: 10px;
-        padding-left: 25px;
-        background: linear-gradient(to bottom, #d85c70,  #ff9900);
-        border-radius: 10px;
-    
-    }
+   
 
     .searchdiv{
         display: flex;
@@ -152,4 +163,4 @@
 
 
 
-}
+} */
