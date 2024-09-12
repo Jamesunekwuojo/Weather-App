@@ -42,6 +42,11 @@ header {
     color: purple;
 }
 
+.weather-icon{
+
+    width:90px;
+}
+
 @media (max-width:412px) {
     .card {
 
