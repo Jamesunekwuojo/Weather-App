@@ -1,16 +1,66 @@
+/* Glowing animated background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(45deg, #d85c70, #ff9900, #ff6f61);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* Container for card to keep it centered */
+.card-container {
+    display: flex;
+    
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+/* Gradient animation for the background */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 
 .card{
     width: 90%;
     max-width: 350px;
     border: 1px solid #000000;
-    margin-top: 0;
-    margin: auto ;
+    margin-top: 10px;
+    margin-bottom: auto;
     padding: 40px;
     background: linear-gradient(to bottom, #d85c70,  #ff9900);
     text-align: center;
     border-radius: 20px;
+    box-shadow: 0px 0px 20px 5px rgba(255, 153, 0, 0.6); /* Glowing effect */
+    animation: pulse 2s infinite;
    
 }
+
+/* Pulsing glow animation for the card */
+/* @keyframes pulse {
+    0% {
+        box-shadow: 0 0 20px 5px rgba(255, 153, 0, 0.6);
+    }
+    50% {
+        box-shadow: 0 0 30px 10px rgba(255, 153, 0, 1);
+    }
+    100% {
+        box-shadow: 0 0 20px 5px rgba(255, 153, 0, 0.6);
+    }
+} */
 
 .search {
     width: 100%;
