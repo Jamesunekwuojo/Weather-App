@@ -32,11 +32,11 @@ async function checkWeather(city) {
         if (data.weather[0].main == "Clouds") {
             weatherIcon.src = "clouds.PNG";
         } else if (data.weather[0].main == "Rain") {
-            weatherIcon.src = "rain.PNG";
+            weatherIcon.src = "./rain.png";
         } else if (data.weather[0].main == "Drizzle") {
-            weatherIcon.src = "drizzle.PNG";
+            weatherIcon.src = "./drizzle.png";
         } else if (data.weather[0].main == "Mist") {
-            weatherIcon.src = "mist.PNG";
+            weatherIcon.src = "./mist.png";
         }
 
         // Display weather info and hide error
