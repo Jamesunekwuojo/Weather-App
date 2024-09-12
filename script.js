@@ -30,7 +30,7 @@ async function checkWeather(city) {
 
         // Set weather icon based on the weather condition
         if (data.weather[0].main == "Clouds") {
-            weatherIcon.src = "clouds.PNG";
+            weatherIcon.src = "./cloud.png";
         } else if (data.weather[0].main == "Rain") {
             weatherIcon.src = "./rain.png";
         } else if (data.weather[0].main == "Drizzle") {
