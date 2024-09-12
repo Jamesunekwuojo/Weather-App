@@ -49,7 +49,7 @@ header {
 
 .weather h1 {
     font-size: 60px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .city {
@@ -87,6 +87,20 @@ header {
         width:200px ;
         flex: 0;
     }
+
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    display: none;
+    
 
 }
 
