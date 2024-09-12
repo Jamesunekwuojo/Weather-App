@@ -17,10 +17,17 @@ header{
     font-size: 20px;
 }
 
+footer {
+    margin-bottom:30px ;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: purple;
+}
 /* Container for card to keep it centered */
 .card-container {
     display: flex;
-    
     justify-content: center;
     flex-grow: 1;
 }
