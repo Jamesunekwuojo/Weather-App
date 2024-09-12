@@ -47,6 +47,36 @@ header {
     width:90px;
 }
 
+.weather h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.city {
+    font-size: 40px;
+    
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 28px;
+    margin-bottom: 0;
+}
 @media (max-width:412px) {
     .card {
 
